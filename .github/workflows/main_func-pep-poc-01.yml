@@ -39,4 +39,4 @@ jobs:
           app-name: 'func-pep-poc-01'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F70879954C8B4AD087D4EE212D67BD4F }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B7D2B583B69F48EFBAB81508F20CABB4 }}
